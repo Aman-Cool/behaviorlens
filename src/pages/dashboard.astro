@@ -1,0 +1,18 @@
+---
+import { Head } from "@/components/Head";
+import DashboardLayout from "@/components/dashboard/DashboardLayout";
+import "@/styles/global.css";
+---
+
+<html lang="en" class="w-full h-full">
+  <head>
+    <Head />
+    <title>BehaviorLens — Real-Time Behavior Observability</title>
+    <meta name="description" content="Real-time user behavior observability dashboard — detect hesitation, navigation loops, and abandonment as they happen." />
+  </head>
+  <body class="w-full h-full bg-[#0F1115]">
+    <div id="root" class="w-full h-full">
+      <DashboardLayout client:load />
+    </div>
+  </body>
+</html>
